@@ -79,22 +79,34 @@ int main() {
   // membuat OBJEK PERTAMA dari kelas PersegiPanjang
   PersegiPanjang *obj1 = new PersegiPanjang(10, 4);
 
-  std::cout << "Nilai counter: "
+  std::cout << "1. Nilai counter: "
             << PersegiPanjang::counter
             << std::endl;
 
   // membuat OBJEK KEDUA dari kelas PersegiPanjang
   PersegiPanjang *obj2 = new PersegiPanjang(20, 2);
 
-  std::cout << "Nilai counter: "
+  std::cout << "2. Nilai counter: "
+            << PersegiPanjang::counter
+            << std::endl;
+
+  std::cout << "3. Nilai counter: "
+            << PersegiPanjang::counter
+            << std::endl;
+
+  // membuat OBJEK KETIGA dari kelas PersegiPanjang
+  PersegiPanjang *obj3 = new PersegiPanjang(54, 22);
+
+  std::cout << "4. Nilai counter: "
             << PersegiPanjang::counter
             << std::endl;
 
   // MENGHAPUS daftar objek
   delete obj1;
   delete obj2;
+  delete obj3;
 
-  std::cout << "Nilai counter: "
+  std::cout << "5. Nilai counter: "
             << PersegiPanjang::counter
             << std::endl;
 
