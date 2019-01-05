@@ -4,16 +4,16 @@ Terdiri dari
 
 Cara Compile dan Execution cpp file di linux
 
-sudo g++ -Wall fileExample.cpp -o fileExample
+$ sudo g++ -Wall fileExample.cpp -o fileExample
 
-./fileExample
+$ ./fileExample
 
 
 Cara Compile dan Execution cpp file di Windows
 
-g++ -Wall fileExample.cpp -o fileExample.exe
+> g++ -Wall fileExample.cpp -o fileExample.exe
 
-fileExample.exe
+> fileExample.exe
 
 
 
