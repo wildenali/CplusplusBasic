@@ -3,6 +3,6 @@
 using namespace std;
 
 int main() {
-    cout << "ini pakai namespace" << endl;
+    cout << "ini pakai namespace std" << endl;
     return 0;
 }
