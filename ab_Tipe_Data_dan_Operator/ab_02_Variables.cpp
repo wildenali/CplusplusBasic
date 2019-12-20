@@ -41,4 +41,21 @@ int main() {
     cout << j << endl;
 
     // Operator
+    cout << a + b << endl;
+    cout << a - b << endl;
+    cout << a * b << endl;
+    cout << a / b << endl;
+    cout << (float)a + b << endl;
+    cout << a % b << endl;
+
+    a += b;
+    b -= c;
+    c += e;
+    e /= f;
+    cout << a << endl;
+    cout << b << endl;
+    cout << c << endl;
+    cout << e << endl;
+
+    return 0;
 }
