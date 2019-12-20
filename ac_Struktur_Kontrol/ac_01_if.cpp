@@ -11,7 +11,7 @@ int main() {
 
     
     if (b == 0) {
-        std::cout << "Tidak bisa di bagi NOL dong, nanti hasilnya tak hingga" << std::endl;
+        std::cout << "Tidak bisa di bagi NOL dong,, nanti hasilnya tak hingga" << std::endl;
         exit(EXIT_FAILURE);
     }
     c = a / b;
