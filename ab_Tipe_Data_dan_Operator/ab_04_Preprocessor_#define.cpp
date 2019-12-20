@@ -6,7 +6,7 @@ using namespace std;
 preprocessor definitions adalah cara kita memberi
 nama pada sebuah nilai yang konstan
 */
-#define panjang 8
+#define panjang 9
 #define lebar 5
 
 int main() {
