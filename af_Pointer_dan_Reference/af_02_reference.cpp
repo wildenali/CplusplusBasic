@@ -3,6 +3,14 @@
 using namespace std;
 
 int main() {
+    /*
+    Deference (&) merupakan suatu operator yang 
+    berfungsi untuk MENANYAKAN ALAMAT dari suatu variabel.
+    Apabila kamu memberikan simbol & pada awal variabel dan
+    mencetak hasilnya pada jendela CLI, maka yang akan 
+    tercetak adalah alamat dari variabel tersebut bukan nilai 
+    yang ditampung oleh variabel tersebut
+    */
     // variable
     int a = 5;
     cout << "address dari a : " << &a << endl;
