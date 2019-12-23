@@ -2,6 +2,44 @@
 
 int main() {
 
+
+    // ===== Basic Array =====
+    int nilaiArray[6];
+    nilaiArray[0] = 5;
+    nilaiArray[1] = 1;
+    nilaiArray[2] = 6;
+    nilaiArray[3] = 57;
+    nilaiArray[4] = 6689;
+    //Deference (&) merupakan suatu operator yang berfungsi untuk 
+        // menanyakan alamat dari suatu variabel. Apabila kamu memberikan
+        // simbol & pada awal variabel dan mencetak hasilnya pada jendela
+        // CLI, maka yang akan tercetak adalah alamat dari variabel 
+        // tersebut bukan nilai yang ditampung oleh variabel tersebut
+    std::cout << &nilaiArray[0] << " Nilainya adalah: " << nilaiArray[0] << std::endl;
+    std::cout << &nilaiArray[1] << " Nilainya adalah: " << nilaiArray[1] << std::endl;
+    std::cout << &nilaiArray[2] << " Nilainya adalah: " << nilaiArray[2] << std::endl;
+    std::cout << &nilaiArray[3] << " Nilainya adalah: " << nilaiArray[3] << std::endl;
+    std::cout << &nilaiArray[4] << " Nilainya adalah: " << nilaiArray[4] << std::endl;
+
+    int *ptr = nilaiArray;
+    *(ptr + 2) = 6;
+
+    nilaiArray[3] = 7;
+    std::cout << std::endl;
+    std::cout << &nilaiArray[0] << " Nilainya adalah: " << nilaiArray[0] << std::endl;
+    std::cout << &nilaiArray[1] << " Nilainya adalah: " << nilaiArray[1] << std::endl;
+    std::cout << &nilaiArray[2] << " Nilainya adalah: " << nilaiArray[2] << std::endl;
+    std::cout << &nilaiArray[3] << " Nilainya adalah: " << nilaiArray[3] << std::endl;
+    std::cout << &nilaiArray[4] << " Nilainya adalah: " << nilaiArray[4] << std::endl;
+    std::cout << std::endl;
+    std::cout << "ukuran array = " << sizeof(nilaiArray) << " byte" << std::endl;
+    std::cout << "jumlah member array = " << sizeof(nilaiArray)/sizeof(int) << std::endl;
+    std::cout << std::endl;
+    std::cout << std::endl;
+
+
+
+    // ===== Basic Array menggunakan for =====
     int arr[5];
 
     for(int i = 0; i < 5; i++)
