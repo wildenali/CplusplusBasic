@@ -11,6 +11,7 @@ int main() {
             }
     */
 
+    // ===== Looping array di c++11 =====
     int arrayNilai[10] = {9,8,7,6,5,4,3,2,1,0};
     for(int nilai : arrayNilai) {
         cout << "address : " << &nilai << "\tnilainya : " << nilai << endl;
@@ -18,7 +19,7 @@ int main() {
     }    
     cout << endl;
 
-    // MANPULASI Array dengan menggunakan Referensi
+    // ===== MANPULASI Array dengan menggunakan Referensi =====
     for(int &nilaiRef : arrayNilai) {
         nilaiRef *= 2;
     }
@@ -27,6 +28,7 @@ int main() {
     for(int &nilaiRef: arrayNilai) {
         cout << "address : " << &nilaiRef << " nilainya: " << nilaiRef << endl;
     }
+
 
     return 0;
 }
