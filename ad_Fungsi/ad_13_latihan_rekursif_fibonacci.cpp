@@ -13,7 +13,6 @@ int main() {
     cout << "nilainya adalah : ";
     cout << hasil << endl;
 
-    cin.get();
     return 0;
 }
 
